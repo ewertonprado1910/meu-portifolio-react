@@ -3,6 +3,12 @@ import styled from "styled-components"
 export const ButtonContainer = styled.div `
 display: flex;
 gap: 15px;
+
+@media screen and (max-width: 800px){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 `
 export const ButtonIcon = styled.button `
 display: flex;
@@ -23,5 +29,11 @@ cursor: pointer;
     transition: .2s;;
   }
 
+@media screen and (max-width: 800px){
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 14px;
+}
 
 `

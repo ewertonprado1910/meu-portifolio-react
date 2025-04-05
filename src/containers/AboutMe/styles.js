@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const BackGround = styled.div `
 background-color: #000;
 width: 100vw;
-height: 100vh;
+height: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -22,5 +22,5 @@ align-items: end;
 margin: 50px 0;
 font-size: 20px;
 font-weight: 500;
-max-width: 1300px;
+max-width: 1400px;
 `

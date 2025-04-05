@@ -1,16 +1,17 @@
 import React from "react"
 
-import { BackGround, 
-    Section, 
-    Img, 
-    ContainerInfo, 
-    Main, 
-    ContainerProjects, 
+import {
+    BackGround,
+    Section,
+    Img,
+    ContainerInfo,
+    Main,
+    ContainerProjects,
     ProjectWrapper,
     LinkProjects,
     ImagesProjects,
     Overlay
- } from "./styles"
+} from "./styles"
 
 import ImagePerson from "../../assets/imgs/foto.jpeg"
 import ImgConversor from "../../img/img-projects/conversor.png"
@@ -46,51 +47,49 @@ function Home() {
                 <ContainerProjects>
                     <ProjectWrapper >
                         <LinkProjects to="https://conversordevalores.netlify.app/" target="_blank">
-                          <ImagesProjects src={ImgConversor}/>
-                          <Overlay>Conversor de Moedas</Overlay>
+                            <ImagesProjects src={ImgConversor} />
+                            <Overlay>Conversor de Moedas</Overlay>
                         </LinkProjects>
                     </ProjectWrapper>
                     <ProjectWrapper >
                         <LinkProjects to="https://devmoviesnet.netlify.app/" target="_blank">
-                          <ImagesProjects src={ImgDevMovies}/>
-                          <Overlay>Dev Movies</Overlay>
+                            <ImagesProjects src={ImgDevMovies} />
+                            <Overlay>Dev Movies</Overlay>
                         </LinkProjects>
                     </ProjectWrapper>
                     <ProjectWrapper >
                         <LinkProjects to="https://terefas.netlify.app/" target="_blank">
-                          <ImagesProjects src={ImgList}/>
-                          <Overlay>Lista de Tarefas</Overlay>
+                            <ImagesProjects src={ImgList} />
+                            <Overlay>Lista de Tarefas</Overlay>
                         </LinkProjects>
                     </ProjectWrapper>
                     <ProjectWrapper >
                         <LinkProjects to="https://irmaosmariofaztudo.netlify.app/" target="_blank">
-                          <ImagesProjects src={ImgMario}/>
-                          <Overlay>Mario Encanador</Overlay>
+                            <ImagesProjects src={ImgMario} />
+                            <Overlay>Mario Encanador</Overlay>
                         </LinkProjects>
                     </ProjectWrapper>
                     <ProjectWrapper >
                         <LinkProjects to="https://github.com/ewertonprado1910/LookApp/blob/main/README.md" target="_blank">
-                          <ImagesProjects src={ImgLookApp}/>
-                          <Overlay>Look App</Overlay>
+                            <ImagesProjects src={ImgLookApp} />
+                            <Overlay>Look App</Overlay>
                         </LinkProjects>
                     </ProjectWrapper>
                     <ProjectWrapper >
                         <LinkProjects to="https://github.com/ewertonprado1910/front-end-code-burguer" target="_blank">
-                          <ImagesProjects src={ImgCodeBurguer}/>
-                          <Overlay>Code Burguer</Overlay>
+                            <ImagesProjects src={ImgCodeBurguer} />
+                            <Overlay>Code Burguer</Overlay>
                         </LinkProjects>
                     </ProjectWrapper>
                     <ProjectWrapper >
                         <LinkProjects to="https://github.com/ewertonprado1910/front-devbills/blob/main/README.md" target="_blank">
-                          <ImagesProjects src={ImgDevBills}/>
-                          <Overlay>Dev Bills</Overlay>
+                            <ImagesProjects src={ImgDevBills} />
+                            <Overlay>Dev Bills</Overlay>
                         </LinkProjects>
                     </ProjectWrapper>
                 </ContainerProjects>
             </Main>
-            <Footer/>
-
-
+            <Footer />
         </BackGround>
 
 

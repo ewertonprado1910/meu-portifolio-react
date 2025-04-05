@@ -27,6 +27,5 @@ align-items: end;
 margin: 50px 0;
 font-size: 20px;
 font-weight: 500;
-max-width: 1300px;
-
+max-width: 1400px;
 `

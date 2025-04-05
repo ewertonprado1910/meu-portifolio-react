@@ -1,6 +1,7 @@
 import React from "react"
 
 import Header from "../../components/Header"
+import Footer from "../../components/Footer"
 
 import { BackGround, Text, Tecnologies, Images } from "./styles"
 import FileImages from "../../assets/images"
@@ -30,6 +31,7 @@ function Languages() {
 
                 Essa experiência diversificada me permite desenvolver soluções completas, eficientes e escaláveis, combinando tecnologias modernas para entregar aplicações de alto desempenho e qualidade.
             </Text>
+            <Footer />
         </BackGround>
     )
 }

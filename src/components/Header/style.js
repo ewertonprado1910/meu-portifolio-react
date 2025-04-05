@@ -9,15 +9,35 @@ justify-content: space-between;
 align-items: flex-start;
 margin: 0 auto;
 max-width: 1400px;
+
+@media screen and (max-width: 800px) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
 `
 export const Image = styled.img`
 width: 250px;
+
+@media screen and (max-width: 800px){
+    width: 140px;
+    
+}
 `
 export const ContainerLinks = styled.div`
 font-size: 20px;
 display: flex;
 gap: 70px;
 margin: 25px 40px 0px 0px;
+
+@media screen and (max-width: 800px) {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 13px;
+   margin: 25px auto 0;
+   
+}
 `
 export const StyleLink = styled(Link)`
 font-size: 17px;
@@ -38,6 +58,17 @@ ${({ active }) =>
         `
         border-bottom: 2px solid #7c7c7c; 
     `}
+
+@media screen and (max-width: 800px) {
+    font-size: 10px;
+    margin: auto;
+    
+    &:hover {
+      font-size: 10px;
+      transform: none;
+      color: #ffffff;
+    }
+  }
 `
 export const Button = styled.button`
 font-size: 17px;
@@ -53,5 +84,9 @@ box-shadow: 0px 0px 8px #ddd6d600;
 &:hover {
     transform: scale(1.07);
     transition: .2s;
+}
+
+@media screen and (max-width: 800px) {
+    display: none;
 }
 `

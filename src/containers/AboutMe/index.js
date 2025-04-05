@@ -2,6 +2,7 @@ import React from "react"
 
 import { BackGround, Title, Text } from "./styles"
 import Header from "../../components/Header"
+import Footer from "../../components/Footer"
 
 function AboutMe() {
     return (
@@ -21,6 +22,7 @@ function AboutMe() {
 
                 Estou em busca da minha primeira oportunidade na área de tecnologia, onde pretendo somar, aprender e evoluir junto com o time, sempre com o objetivo de entregar soluções que realmente façam a diferença.
             </Text>
+            <Footer/>
         </BackGround>
     )
 }
