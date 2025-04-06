@@ -60,6 +60,7 @@ line-height: 1.7;
 
 @media screen and (max-width: 800px) {
     text-align: center;
+    margin-top: -25px;
 }
 `
 export const Main = styled.div`
